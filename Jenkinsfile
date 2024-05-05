@@ -19,4 +19,21 @@ pipeline{
             }
         }
     }
+
+
+//this are the post operation in jenkins scripts file
+    post{
+
+        always{
+            sh 'echo "success'
+        }
+
+        success{
+            sh 'echo "success"'
+        }
+
+        failure{
+            sh 'echo "failure"'
+        }
+    }
 }
