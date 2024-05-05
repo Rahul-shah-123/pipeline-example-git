@@ -14,7 +14,7 @@ pipeline{
         stage("run"){
 
             steps{
-            sh "java test"
+            sh "java Test"
 
             }
         }
